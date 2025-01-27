@@ -1,4 +1,4 @@
-package org.acme;
+package com.kevindubois;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;

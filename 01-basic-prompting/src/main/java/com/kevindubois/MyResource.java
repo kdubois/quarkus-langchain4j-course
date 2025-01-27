@@ -1,6 +1,5 @@
-package org.acme;
+package com.kevindubois;
 
-import io.quarkus.logging.Log;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
@@ -16,8 +15,6 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String writeAPoem() {
-        var movieStar = myAiService.getMovieStar();
-        Log.info(movieStar);
-        return movieStar.firstName() + " " + movieStar.lastName() + " is a great actor!";
+        return myAiService.writeAPoem("Quarkus AI", 4);
     }
 }
