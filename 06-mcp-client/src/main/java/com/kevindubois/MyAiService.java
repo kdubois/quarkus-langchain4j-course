@@ -10,7 +10,7 @@ public interface MyAiService {
 
     @SystemMessage("You are a weather expert")
     @UserMessage("""
-                Get the most recent weather for a given state with state code {state}
+                Get the most recent weather alerts for a given state with state code {state}
             """)
-    String getWeather(String state);
+    String getWeatherAlerts(String state);
 }

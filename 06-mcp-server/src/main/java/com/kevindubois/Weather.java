@@ -4,7 +4,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Singleton;
 import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 import org.eclipse.microprofile.rest.client.inject.RestClient;
@@ -18,7 +17,6 @@ import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 
 
-@Singleton
 public class Weather {
 
     @RestClient
