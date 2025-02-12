@@ -16,7 +16,7 @@ public class MyResource {
     @GET
     @Produces(MediaType.TEXT_HTML)
     public String getWeatherAlerts() {
-        var weather = myAiService.getWeatherAlerts("UT");
+        String weather = myAiService.getWeatherAlerts("UT");
         Log.info(weather);
         return weather;
     }
