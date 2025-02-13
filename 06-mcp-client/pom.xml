@@ -13,7 +13,7 @@
         <dependency>
             <groupId>io.quarkiverse.langchain4j</groupId>
             <artifactId>quarkus-langchain4j-mcp</artifactId>
-            <version>0.23.3</version>
+            <version>${quarkus-langchain4j.version}</version>
         </dependency>
 
     </dependencies>
