@@ -30,8 +30,8 @@
     <modules>
         <module>01-basic-prompting</module>
         <module>02-advanced-prompting</module>
-        <module>03-changing-model</module>
-        <module>04-memory</module>
+        <module>04-changing-model</module>
+        <module>03-memory</module>
         <module>05-tools-agents</module>
         <module>06-mcp-client</module>
         <module>06-mcp-server</module>
