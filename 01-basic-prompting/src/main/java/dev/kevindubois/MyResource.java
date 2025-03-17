@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import jakarta.inject.Inject;
 import jakarta.ws.rs.GET;

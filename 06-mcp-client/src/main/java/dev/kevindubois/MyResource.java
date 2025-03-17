@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import io.quarkus.logging.Log;
 import jakarta.inject.Inject;

@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import io.quarkus.picocli.runtime.annotations.TopCommand;
 import jakarta.enterprise.context.control.ActivateRequestContext;

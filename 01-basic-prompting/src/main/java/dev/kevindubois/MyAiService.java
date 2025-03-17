@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
@@ -7,9 +7,9 @@ import io.quarkiverse.langchain4j.RegisterAiService;
 @RegisterAiService( )
 public interface MyAiService {
 
-    @SystemMessage("You are a weather expert")
+    @SystemMessage("You are a professional poet") 
     @UserMessage("""
-                Get the most recent weather alerts for a given state with state code {state}
+                Write a poem about {topic}. The poem should be {lines} lines long.
             """)
-    String getWeatherAlerts(String state);
+    String writeAPoem(String topic, int lines); 
 }

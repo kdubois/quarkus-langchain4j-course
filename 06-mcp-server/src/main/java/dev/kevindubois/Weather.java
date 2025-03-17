@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import java.util.List;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import io.quarkiverse.langchain4j.RegisterAiService;
 

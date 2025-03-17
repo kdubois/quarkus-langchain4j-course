@@ -1,4 +1,4 @@
-package com.kevindubois;
+package dev.kevindubois;
 
 import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.SystemMessage;
