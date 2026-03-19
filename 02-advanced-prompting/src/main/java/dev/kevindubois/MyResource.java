@@ -18,6 +18,8 @@ public class MyResource {
     public String writeAPoem() {
         var movieStar = myAiService.getMovieStar();
         Log.info(movieStar);
-        return movieStar.firstName() + " " + movieStar.lastName() + " is a great actor!";
+        return movieStar.firstName() + " " + movieStar.lastName() +
+                " is a great actor! " +
+                "They are best know for " + movieStar.movie();
     }
 }

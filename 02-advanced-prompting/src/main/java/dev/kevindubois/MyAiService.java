@@ -9,7 +9,7 @@ public interface MyAiService {
 
     @SystemMessage("You are a movie expert") 
     @UserMessage("""
-                return the name of a famous movie star and the movie they are best known for
+                return the name of a random famous movie star and the movie they are best known for
             """)
     MovieStar getMovieStar(); 
 }
